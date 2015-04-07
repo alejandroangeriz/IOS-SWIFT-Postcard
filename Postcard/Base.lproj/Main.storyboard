@@ -83,11 +83,20 @@
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdj-Fm-KW0">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="11" y="68" width="293" height="95"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUC-rL-jPu">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="179" width="180" height="39"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSJ-ga-WNR">
@@ -112,6 +121,7 @@
                                 <exclude reference="WfH-I5-7Fo"/>
                                 <exclude reference="2Il-KL-86s"/>
                                 <exclude reference="jdj-Fm-KW0"/>
+                                <exclude reference="YUC-rL-jPu"/>
                                 <exclude reference="QSJ-ga-WNR"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="WfH-I5-7Fo"/>
                                 <include reference="2Il-KL-86s"/>
                                 <include reference="jdj-Fm-KW0"/>
+                                <include reference="YUC-rL-jPu"/>
                                 <include reference="QSJ-ga-WNR"/>
                             </mask>
                         </variation>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="2Il-KL-86s" id="G9l-kc-Q1T"/>
                         <outlet property="mailButton" destination="QSJ-ga-WNR" id="gzm-Hf-3Rr"/>
                         <outlet property="messageLabel" destination="jdj-Fm-KW0" id="o5z-5g-rmg"/>
+                        <outlet property="nameLabel" destination="YUC-rL-jPu" id="478-er-wj8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
