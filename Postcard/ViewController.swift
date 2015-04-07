@@ -57,9 +57,11 @@ class ViewController: UIViewController {
         
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
         
-        //refresh button text function call.
+        //refresh button text function call and clear labels.
         delay(10) {
             self.mailButton.setTitle("Send Mail", forState: UIControlState.Normal)
+            self.messageLabel.text = ""
+            self.nameLabel.text = ""
         }
         
         
